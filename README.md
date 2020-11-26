@@ -1,1 +1,1 @@
-Scripts to create portable dependency bundles for windows/linux/pwlinux
+Scripts to create portable dependency bundles for portable Linux, portable Windows and PWLinux installs of PWCode
