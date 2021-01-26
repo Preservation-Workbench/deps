@@ -17,6 +17,7 @@ wget https://repo1.maven.org/maven2/org/postgresql/postgresql/42.2.16/postgresql
 wget https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar -O deps/jars/mysql-connector-java.jar
 wget https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/8.4.1.jre11/mssql-jdbc-8.4.1.jre11.jar -O deps/jars/mssql-jdbc.jre11.jar
 wget https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar -O deps/jars/h2.jar
+wget https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.5.1/hsqldb-2.5.1.jar -O deps/jars/hsqldb.jar
 
 cd deps && zip -r $SCRIPTPATH/deps.zip jars
 
